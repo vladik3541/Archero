@@ -1,7 +1,9 @@
 
 public class CollectCoinState : State
 {
+    private Transform coins;
     private GameManager _gameManager;
+    private string tagCoin = "Coin";
 
     public CollectCoinState(GameManager gameManager)
     {
@@ -9,7 +11,8 @@ public class CollectCoinState : State
     }
     public override void Enter()
     {
-        throw new System.NotImplementedException();
+        coins = GameObject.FindObjectsWithTag(tagCoin).transform;
+        
     }
 
     public override void Exit()

@@ -8,16 +8,17 @@ public class GameManager : MonoBehaviour
     public Transform[] walls;
     public float timeWaiteBetweenWave = 3f;
 
+    private PlayerControl _playerControl;
     private StateMachine stateMachine;
-
-    public StateMachine StateMachine { get { return stateMachine; } }
     private SpawnEnemyState spawnEnemyState;
     private CollectCoinState collectCoinState;
+    public StateMachine StateMachine { get { return stateMachine; } }
+    public PlayerControl PlayerControl { get { return _playerControl; } }
 
 
-
-    public void Initialize()
+    public void Initialize(PlayerControl playerControl)
     {
+        _playerControl = playerControl;
         stateMachine = new StateMachine();
         spawnEnemyState = new SpawnEnemyState(this);
         collectCoinState = new CollectCoinState(this);
