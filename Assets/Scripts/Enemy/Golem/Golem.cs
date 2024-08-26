@@ -9,15 +9,21 @@ public class Golem : Enemy
     [SerializeField] private ProjectileTurtle _projectile;
     [SerializeField] private Transform firePoint;
 
-    [SerializeField] private Transform target;
+    [SerializeField] private PlayerController playerController;
 
+    protected override void Start()
+    {
+        base.Start();
+        playerController = FindObjectOfType<PlayerController>();
+
+    }
     private void Update()
     {
         RotateTarget();
     }
     private void RotateTarget()
     {
-        Vector3 direction = target.position - transform.position;
+        Vector3 direction = playerController.transform.position - transform.position;
         direction.y = 0;
         transform.rotation = Quaternion.LookRotation(direction.normalized);
     }

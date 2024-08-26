@@ -5,7 +5,6 @@ using Random = UnityEngine.Random;
 
 public class Turtle : Enemy
 {
-    [SerializeField] private PlayerController player; // Посилання на гравця
     [SerializeField] private float jumpPower = 2f; // Сила стрибка
     [SerializeField] private int numJumps = 1; // Кількість стрибків
     [SerializeField] private float jumpDuration = 1f; // Тривалість стрибка
@@ -17,17 +16,19 @@ public class Turtle : Enemy
     [SerializeField] private int countBullet = 4;
     [SerializeField] private ProjectileTurtle _projectile;
     [SerializeField] private int rotateAngle = 90;
+    private PlayerController playerController; // Посилання на гравця
 
     protected override void Start()
     {
         base.Start();
+        playerController = FindObjectOfType<PlayerController>();
         InvokeRepeating(nameof(Jump), 0f, jumpInterval);
     }
 
     private void Jump()
     {
         // Встановлюємо нову позицію по X як у гравця
-        float newX = player.transform.position.x;
+        float newX = playerController.transform.position.x;
 
         // Випадково вибираємо нову позицію по Z: +1 або -1 від поточної позиції
         float newZ = transform.position.z + (Random.Range(0, 2) == 0 ? -1f : 1f);

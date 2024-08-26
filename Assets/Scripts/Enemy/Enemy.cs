@@ -27,7 +27,7 @@ public abstract class Enemy : Health
             for (int i = 0; i < coinCount; i++)
             {
                 GameObject clone = Instantiate(coinPrefab, transform.position, coinPrefab.transform.rotation);
-                Vector3 randomPosition = new Vector3(Random.Range(-2, 3), 1, Random.Range(-2, 3));
+                Vector3 randomPosition = new Vector3(Random.Range(-2, 3), 0, Random.Range(-2, 3));
                 clone.transform.DOJump(transform.position + randomPosition, 3, 3, 1);
                 Debug.LogError("Coin");
             }

@@ -8,15 +8,15 @@ public class GameManager : MonoBehaviour
     public Transform[] walls;
     public float timeWaiteBetweenWave = 3f;
 
-    private PlayerControl _playerControl;
+    private PlayerController _playerControl;
     private StateMachine stateMachine;
     private SpawnEnemyState spawnEnemyState;
     private CollectCoinState collectCoinState;
     public StateMachine StateMachine { get { return stateMachine; } }
-    public PlayerControl PlayerControl { get { return _playerControl; } }
+    public PlayerController PlayerControl { get { return _playerControl; } }
 
 
-    public void Initialize(PlayerControl playerControl)
+    public void Initialize(PlayerController playerControl)
     {
         _playerControl = playerControl;
         stateMachine = new StateMachine();
@@ -24,12 +24,20 @@ public class GameManager : MonoBehaviour
         collectCoinState = new CollectCoinState(this);
 
         stateMachine.InitializeState(spawnEnemyState);
-        stateMachine.CurrentState.Enter();
         spawnEnemyState.OnEndWave += EndWave;
+        collectCoinState.OnEndMoveCoin += EndCollectCoin;
     }
     private void EndWave()
     {
         stateMachine.SwitchState(collectCoinState);
     }
-   
+    private void EndCollectCoin()
+    {
+        stateMachine.SwitchState(spawnEnemyState);
+    }
+
+    private void OnDisable()
+    {
+        spawnEnemyState.OnEndWave -= EndWave;
+    }
 }

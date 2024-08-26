@@ -13,12 +13,13 @@ public class Beholder : Enemy
     [SerializeField] private float spawnProjectileInterval;
 
     [SerializeField] private Projectile projectile;
-    [SerializeField] private PlayerController playerController;
+    private PlayerController playerController;
 
     private int numJump = 1;
     protected override void Start()
     {
         base.Start();
+        playerController = FindObjectOfType<PlayerController>();
         animator = GetComponent<Animator>();
         InvokeRepeating("Attack", attackInterval, attackInterval);
     }

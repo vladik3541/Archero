@@ -1,0 +1,1824 @@
+fileFormatVersion: 2
+guid: b8e84372e0c580c418c83a34e841a571
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: skillsArchero_1
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 740
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f9eb1307009b204f99e46f131f3dfe8
+      internalID: -2107598734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_2
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 740
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afad940e68146c349a2d6e0a2a52ba67
+      internalID: 705890187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_3
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 740
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbd0b5c58adc9a840b232494501d718f
+      internalID: -575138534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_4
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 740
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83885b3a6aa7bec4f9d0cc311a03aa51
+      internalID: 830620804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_5
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 740
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af93d2541c33d3f44b4b395ca23e00b8
+      internalID: -1396153811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_14
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 658
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b97977af2fc1534e98b823cd3e07194
+      internalID: 1565600684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_15
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 658
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 679e0c1325257ea4fa4eeb21f92c4604
+      internalID: 483020520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_16
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 658
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45e5cb4694323824b9b096ac4d33dd3f
+      internalID: 1087786974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_17
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 658
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd9ca91a85b4a2845af6ae83fcec2189
+      internalID: -735410073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_18
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 658
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06d0513dccf7117428d5cea56053cfbe
+      internalID: -998360928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_27
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 576
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 379b31f9766be704eb6148ff84283227
+      internalID: 380186174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_28
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 576
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7df75033618be77418dab8be811bb388
+      internalID: -1619501728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_29
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 576
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e585ace25070f46abbb92c420a400a
+      internalID: 1512964431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_30
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 576
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaa03cc042cf74142b3649390dc3495e
+      internalID: -1270024888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_31
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 576
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01ed4f23d48b74d42a7a69a0e1900aa7
+      internalID: 1530177665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_32
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 576
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e8e8fb821c886a4d9a28b2df78cf290
+      internalID: 1684723502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_33
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 576
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1afc6a40e591c2f4e8d583ccf2d7e25e
+      internalID: -890698966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_34
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 576
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f057f73e75f574fb7140bbe276d4c5
+      internalID: -2030868823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_35
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 576
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6a21e6ad72fb84aaaf09f9f47c2d62
+      internalID: 725010403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_40
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 494
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4ce81b6950531d4caf2d1800c6be980
+      internalID: 993995715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_41
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 494
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 245457d9223da2e499076597641df8c6
+      internalID: -956674229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_42
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 494
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e4faa6d95bba0540b6732d5843472da
+      internalID: -2079833162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_43
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 494
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de24ffa4b9827aa438805e878edfbecb
+      internalID: 1239179069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_44
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 494
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a95743be0b849be42a16948127ab51bf
+      internalID: 891647242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_45
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 494
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acbdc000b0ab611418e024a5ec8e3fd9
+      internalID: -903720726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_46
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 494
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97effeb8aa663a440914b448377af010
+      internalID: -2119648956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_47
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 494
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d8b3d549ec6ea42aa1e1d75f52bc53
+      internalID: 1916726161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_48
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 494
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27703312ae83dec4381257f8e4d1ff88
+      internalID: -879913463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_49
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 494
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0958f60b65d8da48a61c77e125832a5
+      internalID: -683599748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_50
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 494
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 280537f1250111e4285b5f22c0ce1ecd
+      internalID: 623649198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_53
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 412
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e6233b78a249942b499d0ca4bdb74b
+      internalID: 1582913336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_54
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 412
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb7b29fee977bb4d8904647309a6f5c
+      internalID: 509960495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_55
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 412
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ed35728b2cde943943f32694393e2e
+      internalID: 1367707780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_56
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 412
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e417b0f585b773141999c15de2f158c6
+      internalID: 1639505717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_57
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 412
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 885ca1af991313e43940a3022637213d
+      internalID: -428464716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_58
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 412
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ca2d789ef26ba54890b94b216fb80d4
+      internalID: 722428861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_59
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 412
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c679401ea87408842b6c2e67b7109e12
+      internalID: 1072031015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_60
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 412
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9c0d749f26ee4644ae753437da46a82
+      internalID: 782703973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_61
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 412
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 056b544ef20f43642ac2a498bdad405e
+      internalID: 344426374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_62
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 412
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9afee534b7e7cb44093c99314265b555
+      internalID: -2077052566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_63
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 412
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50eeda307e12ace4e918cdbad986de8c
+      internalID: -591454163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_64
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 412
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e4bfcee4f11de44e8bd2a61d7799e11
+      internalID: 299140843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_66
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 330
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10c465ee2dc82ae4fb7c643af22837a7
+      internalID: 715848403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_67
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 330
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3057917e8f55d5488ca11e12dcdc2fc
+      internalID: 2074252242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_68
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 330
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c1e6ca231c2074d80e742c4b1bad08
+      internalID: -440658856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_69
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 330
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7957f21186c2f04439c784c9c923b5a2
+      internalID: -2009474184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_70
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 330
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc4e27016b468494cbdab8dcaf5af5e3
+      internalID: 1332641084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_71
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 330
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 356aa7d28369ecc43814711e7b19046e
+      internalID: 168498935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_72
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 330
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c89bf7340f485f4e9f9557e8812525f
+      internalID: 750715227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_73
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 330
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df481000d0321ff4dbd3e34755fc2d5b
+      internalID: 382780784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_74
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 330
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae41d62c6bbeb934f895405f22c3778b
+      internalID: 996880621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_75
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 330
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25041f958f345f747a3b9d092f873274
+      internalID: -589809957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_76
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 330
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a39d52553fcc874a9fd4c7a43961f7a
+      internalID: 1413481670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_77
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 330
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8872696b62fd1d42ad8b10d06035081
+      internalID: -1614770466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_79
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 248
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 168aad667afa9b64683ab3b13cde07e3
+      internalID: 1908092215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_80
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 248
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8816128fdb6a99c489b8103014052c6a
+      internalID: 2032207988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_81
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 248
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b8d2829e350c54ca7ba32a8ec6496e
+      internalID: -1989793187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_82
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 248
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec904964ab565d94bbbba05cb5fcf092
+      internalID: -219631776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_83
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 248
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3d0eebef56dea04298ebdbd745b15bc
+      internalID: -528948186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_84
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 248
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90916df840fc9f840a929dbf95615f5a
+      internalID: -1346285152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_92
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 166
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e618f40b30fe2f47af90a89e83ca24e
+      internalID: -1354551693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_93
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 166
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 468a563906c76f14aa7ed82273d1e3de
+      internalID: 248281281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_94
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 166
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b3caa9ed16b52f4881e5b87e7ab0e45
+      internalID: 955679008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_95
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 166
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c13f677949ff2164b82a2793b9e89fb0
+      internalID: 483349228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_96
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 166
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 736002f3d0e2a8644bde6b6d10d7af29
+      internalID: 1895730419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_97
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 166
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec760c440f06abc4b9c129bbe91f2030
+      internalID: 1881042255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_98
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 166
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e8ae3f1a15b1447b72a9da651c7b48
+      internalID: -1250632188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_99
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 166
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5296a633c0ab3274399186203a3c4c00
+      internalID: 1335259505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_100
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 166
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 389cea5440d780c42b305db53a4b4065
+      internalID: -662363310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_105
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 84
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7129f147f4346044284bcbf1d91e118f
+      internalID: -489076605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_106
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 84
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6f58891640efe41b0ece74f3879a0c
+      internalID: 481049976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_107
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 84
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cff5352d4da067b41802c72fbd37d71a
+      internalID: 2060458302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_118
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 2
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02a4668d6e19b904bb4b16d7bcec20b0
+      internalID: -666815750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillsArchero_119
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 2
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d80de045585884d4f862a22b65f03ff1
+      internalID: -782340671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: f9d284da6d569794687eba507b16c648
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      skillsArchero_0: 1323705558
+      skillsArchero_1: -2107598734
+      skillsArchero_10: 1450432096
+      skillsArchero_100: -662363310
+      skillsArchero_101: 2127511945
+      skillsArchero_102: 670652155
+      skillsArchero_103: 2016946573
+      skillsArchero_104: 1505936467
+      skillsArchero_105: -489076605
+      skillsArchero_106: 481049976
+      skillsArchero_107: 2060458302
+      skillsArchero_108: -1059580959
+      skillsArchero_109: 357226654
+      skillsArchero_11: -495239265
+      skillsArchero_110: -235062496
+      skillsArchero_111: -1978578400
+      skillsArchero_112: 288526386
+      skillsArchero_113: -1734523086
+      skillsArchero_114: 1107633159
+      skillsArchero_115: 1365392032
+      skillsArchero_116: -1946199453
+      skillsArchero_117: -1572581001
+      skillsArchero_118: -666815750
+      skillsArchero_119: -782340671
+      skillsArchero_12: -668001286
+      skillsArchero_120: 697902982
+      skillsArchero_121: -1686537518
+      skillsArchero_122: 1243379401
+      skillsArchero_123: 578164317
+      skillsArchero_124: -718962278
+      skillsArchero_125: 480267610
+      skillsArchero_126: 666780870
+      skillsArchero_127: -921812846
+      skillsArchero_128: 1433377188
+      skillsArchero_129: 1890310012
+      skillsArchero_13: -911370648
+      skillsArchero_14: 1565600684
+      skillsArchero_15: 483020520
+      skillsArchero_16: 1087786974
+      skillsArchero_17: -735410073
+      skillsArchero_18: -998360928
+      skillsArchero_19: 1196640808
+      skillsArchero_2: 705890187
+      skillsArchero_20: -769983617
+      skillsArchero_21: -2084672443
+      skillsArchero_22: 1410656569
+      skillsArchero_23: 499494837
+      skillsArchero_24: -917238653
+      skillsArchero_25: 2068153558
+      skillsArchero_26: 377897304
+      skillsArchero_27: 380186174
+      skillsArchero_28: -1619501728
+      skillsArchero_29: 1512964431
+      skillsArchero_3: -575138534
+      skillsArchero_30: -1270024888
+      skillsArchero_31: 1530177665
+      skillsArchero_32: 1684723502
+      skillsArchero_33: -890698966
+      skillsArchero_34: -2030868823
+      skillsArchero_35: 725010403
+      skillsArchero_36: -366213039
+      skillsArchero_37: 1126808237
+      skillsArchero_38: -97883864
+      skillsArchero_39: -48029964
+      skillsArchero_4: 830620804
+      skillsArchero_40: 993995715
+      skillsArchero_41: -956674229
+      skillsArchero_42: -2079833162
+      skillsArchero_43: 1239179069
+      skillsArchero_44: 891647242
+      skillsArchero_45: -903720726
+      skillsArchero_46: -2119648956
+      skillsArchero_47: 1916726161
+      skillsArchero_48: -879913463
+      skillsArchero_49: -683599748
+      skillsArchero_5: -1396153811
+      skillsArchero_50: 623649198
+      skillsArchero_51: 1353845833
+      skillsArchero_52: 1042417630
+      skillsArchero_53: 1582913336
+      skillsArchero_54: 509960495
+      skillsArchero_55: 1367707780
+      skillsArchero_56: 1639505717
+      skillsArchero_57: -428464716
+      skillsArchero_58: 722428861
+      skillsArchero_59: 1072031015
+      skillsArchero_6: -1646312120
+      skillsArchero_60: 782703973
+      skillsArchero_61: 344426374
+      skillsArchero_62: -2077052566
+      skillsArchero_63: -591454163
+      skillsArchero_64: 299140843
+      skillsArchero_65: -1209058429
+      skillsArchero_66: 715848403
+      skillsArchero_67: 2074252242
+      skillsArchero_68: -440658856
+      skillsArchero_69: -2009474184
+      skillsArchero_7: -267604265
+      skillsArchero_70: 1332641084
+      skillsArchero_71: 168498935
+      skillsArchero_72: 750715227
+      skillsArchero_73: 382780784
+      skillsArchero_74: 996880621
+      skillsArchero_75: -589809957
+      skillsArchero_76: 1413481670
+      skillsArchero_77: -1614770466
+      skillsArchero_78: -2080127477
+      skillsArchero_79: 1908092215
+      skillsArchero_8: -1380839722
+      skillsArchero_80: 2032207988
+      skillsArchero_81: -1989793187
+      skillsArchero_82: -219631776
+      skillsArchero_83: -528948186
+      skillsArchero_84: -1346285152
+      skillsArchero_85: -288536001
+      skillsArchero_86: 457939260
+      skillsArchero_87: 768307936
+      skillsArchero_88: -481601075
+      skillsArchero_89: -1909372828
+      skillsArchero_9: -476454377
+      skillsArchero_90: 1737487245
+      skillsArchero_91: -762547195
+      skillsArchero_92: -1354551693
+      skillsArchero_93: 248281281
+      skillsArchero_94: 955679008
+      skillsArchero_95: 483349228
+      skillsArchero_96: 1895730419
+      skillsArchero_97: 1881042255
+      skillsArchero_98: -1250632188
+      skillsArchero_99: 1335259505
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -22,7 +22,6 @@ public class SpawnEnemyState : State
 
     public override void Exit()
     {
-        throw new System.NotImplementedException();
     }
 
     public override void Update()
@@ -31,13 +30,13 @@ public class SpawnEnemyState : State
     }
     void SpawnWave()
     {
-        for (int i = 0; i < _gameManager.wave.Length; i++)
+        for (int i = 0; i < _gameManager.wave[currentWave].enemy.Length; i++)
         {
             Vector3 newPosition;
 
             newPosition.x = Random.Range(_gameManager.walls[0].position.x, _gameManager.walls[2].position.x);
             newPosition.z = Random.Range(_gameManager.walls[0].position.z, _gameManager.walls[2].position.z);
-            newPosition.y = 1;
+            newPosition.y = 0;
 
             GameObject enemy = Object.Instantiate(_gameManager.wave[currentWave].enemy[i].gameObject);
             enemy.transform.position = newPosition;
@@ -45,6 +44,7 @@ public class SpawnEnemyState : State
             _enemiesAlive++;
             enemy.GetComponent<Health>().OnDeath += EnemyDestroyed;
         }
+        Debug.LogError($"Enemy {_enemiesAlive}");
     }
     void EnemyDestroyed()
     {
@@ -60,6 +60,7 @@ public class SpawnEnemyState : State
     {
         // Код, який виконується, коли всі вороги знищені
         OnEndWave?.Invoke();
+        currentWave++;
         Debug.Log("Всі вороги знищені!");
     }
 }

@@ -12,15 +12,16 @@ public class Slime : Enemy
     [SerializeField] private float jumpInterval;
     [SerializeField] private float jumpDuration;
     [Space(25)]
-    [SerializeField] private PlayerController player;
-    [SerializeField] private LayerMask layerMask; 
+    [SerializeField] private LayerMask layerMask;
 
+    private PlayerController player;
     private int numJumps = 1;
     private Vector3 targetPosition;
 
     protected override void Start()
     {
         base.Start();
+        player = FindObjectOfType<PlayerController>();
         InvokeRepeating("Movement", 0f, jumpInterval);
     }
 
